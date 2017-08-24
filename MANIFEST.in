@@ -1,0 +1,4 @@
+graft flask_private_area/templates
+graft flask_private_area/static
+include flask_private_area/schema.sql
+exclude flask_private_area/config.py

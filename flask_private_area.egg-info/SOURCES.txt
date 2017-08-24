@@ -1,0 +1,14 @@
+INSTALL.txt
+LICENSE
+MANIFEST.in
+flask_private_area/__init__.py
+flask_private_area/example_config.py
+flask_private_area/flask_private_area.py
+flask_private_area/schema.sql
+flask_private_area.egg-info/PKG-INFO
+flask_private_area.egg-info/SOURCES.txt
+flask_private_area.egg-info/dependency_links.txt
+flask_private_area.egg-info/requires.txt
+flask_private_area.egg-info/top_level.txt
+flask_private_area/static/private-area.css
+flask_private_area/templates/login.html

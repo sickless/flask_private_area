@@ -1,0 +1,9 @@
+1. Config file
+    Copy/paste the 'example_config.py' as 'config.py' and edit it.
+2. Database
+    2.1 Run sqlite3 fpa_user.db < schema.sql # Or another db filename
+        according to the edits you did in the part 1.
+    2.2 Add users in the database.
+        For generating passwords, I can suggest you to use
+        generate_password_hash() fonction that you can import like:
+        from werkzeug.security import generate_password_hash

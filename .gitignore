@@ -1,0 +1,4 @@
+flask_private_area/config.py
+*.pyc
+*.swp
+*.db

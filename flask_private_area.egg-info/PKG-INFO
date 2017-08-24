@@ -1,0 +1,22 @@
+Metadata-Version: 1.0
+Name: flask-private-area
+Version: 0.1
+Summary: flask_autoindex with simple authentication
+Home-page: https://github.com/sickless/flask_private_area
+Author: Benoît Pineau
+Author-email: beny@sickless.net
+License: BSD
+Description: 
+        flask_private_area
+        ------------------
+        
+        flask_private_area uses Flask-AutoIndex with a simple authentication, via
+        a sqlite database.
+        
+        The initial goal was to keep an persistent authentication when an authenticated
+        user still navigates in a private area.
+        A very short expiration time cookie is used and set each time the user goes on
+        a page in the private area.
+        
+        
+Platform: any

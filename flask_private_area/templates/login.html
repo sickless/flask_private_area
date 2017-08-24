@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="{{url_for('static', filename='private-area.css')}}" type="text/css" />
+    <title>Private area</title>
+  </head>
+  <body>
+    <form action="" method="POST" class="private-area">
+        <h3>Private area</h3>
+        {% with messages = get_flashed_messages(category_filter=['error_logging']) %}
+          {% if messages %}
+            {% for message in messages %}
+              <div class="error-logging">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+        <p><input type="text" name="username"></p>
+        <p><input type="password" name="password"></p>
+        <p><input type="submit" value="Login"></p>
+    </form>
+  </body>
+</html>
